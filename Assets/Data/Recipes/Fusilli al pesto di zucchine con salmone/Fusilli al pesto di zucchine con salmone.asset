@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be95694722fefe4786d7ef153d9b4e3, type: 3}
+  m_Name: Fusilli al pesto di zucchine con salmone
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: a8c2f3ada6492844990c4c2597ec05c1, type: 3}
+  URL: https://ricette.giallozafferano.it/Fusilli-al-pesto-di-zucchine-con-salmone.html
+  IngredientsNames:
+  - Fusilli
+  - Olio evo
+  - Tranci di salmone
+  - Limoni
+  - Zucchine
+  - Pinoli
+  - Basilico
+  - Mandorle
+  - Parmigiano reggiano
+  IngredientsValues:
+  - 320
+  - 145
+  - 260
+  - 0.5
+  - 200
+  - 30
+  - 10
+  - 10
+  - 30
+  IngredientsValuesType:
+  - g
+  - g
+  - g
+  - spremuto
+  - g
+  - g
+  - g
+  - g
+  - g
