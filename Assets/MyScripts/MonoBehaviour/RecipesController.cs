@@ -4,16 +4,18 @@ using UnityEngine;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.UI;
+using TMPro;
 
 [Serializable] public class MyRecipesDictionary : SerializableDictionary<string, PastaRecipesData> { }
 public class RecipesController : MonoBehaviour
 {
     //#########TEST TEMP##########
     #region TEST TEMP
-    public GameObject Test;
-    public Image RecipeImage;
-    public Text RecipeName;
-    public Text RecipeIngred;
+    [SerializeField] GameObject Test;
+    [SerializeField] Image RecipeImage;
+    [SerializeField] TMP_Text RecipeName;
+    [SerializeField] TMP_Text RecipeIngred;
+    [SerializeField] float SpawnDist;
     #endregion
 
     ARTrackedImageManager m_TrackedImageManager;
@@ -42,9 +44,6 @@ public class RecipesController : MonoBehaviour
         for (int i = 0; i < eventArgs.added.Count; i++)
         {
             trackedImage = eventArgs.added[i];
-            // instantiate AR object, set trackedImage.transform
-            // use a Dictionary, the key could be the trackedImage, or the name of the reference image -> trackedImage.referenceImage.name
-            // the value of the Dictionary is the AR object you instantiate.
 
             PastaRecipesData pastaRecipesData = RecipesData[trackedImage.referenceImage.name];
             RecipeData recipeData = pastaRecipesData.recipes[0];
@@ -52,39 +51,28 @@ public class RecipesController : MonoBehaviour
             RecipeName.text = recipeData.RecipeName;
             RecipeIngred.text = recipeData.GetIngString();
 
-          
+            Test.transform.position = trackedImage.transform.position + new Vector3(0,0, SpawnDist);
+
+            Test.SetActive(true);
         }
 
-        for (int i = 0; i < eventArgs.updated.Count; i++)
-        {
-            trackedImage = eventArgs.updated[i];
-            if (trackedImage.trackingState == TrackingState.Tracking)
-            //if (trackedImage.trackingState != TrackingState.None)
-            {
-                // set AR object to active, use Dictionary to get AR object based on trackedImage
-                // you can also include TrackingState.Limited by checking for None
+        //for (int i = 0; i < eventArgs.updated.Count; i++)
+        //{
+        //    trackedImage = eventArgs.updated[i];
+        //    if (trackedImage.trackingState == TrackingState.Tracking)            
+        //    {
+        //        Test.SetActive(true);
+        //    }
+        //    else
+        //    {
+        //        // set active to false
 
-                //camera.transform.Rotate(new Vector3(0, 0, 45), Space.Self);
-                //camera.gameObject.SetActive(false);
-                //PastaRecipesData pastaRecipesData = RecipesData[trackedImage.referenceImage.name];
-                //RecipeData recipeData = pastaRecipesData.recipes[0];
-                //RecipeImage.sprite = recipeData.Icon;
-                //RecipeName.text = recipeData.RecipeName;
-                //RecipeIngred.text = recipeData.GetIngString();
-
-                Test.SetActive(true);
-            }
-            else
-            {
-                // set active to false
-
-                Test.SetActive(false);
-            }
-        }
+        //        //Test.SetActive(false);
+        //    }
+        //}
 
         for (int i = 0; i < eventArgs.removed.Count; i++)
         {
-            // destroy AR object, or set active to false. Use Dictionary.
             Test.SetActive(false);
         }
     }

@@ -16,112 +16,12 @@ MonoBehaviour:
   m_GuidHigh: 11338665651040755373
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5332104792803380197
-      m_GuidHigh: 185310804734996668
-    m_SerializedTextureGuid:
-      m_GuidLow: 3045804918016700000
-      m_GuidHigh: 12263723139385508072
-    m_Size: {x: 0.254, y: 0.16891992}
-    m_SpecifySize: 1
-    m_Name: Rafflesia
-    m_Texture: {fileID: 2800000, guid: 8185ee60df6f2a44e8c0cf22387f31aa, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 4688767676970561261
-      m_GuidHigh: 9713720137873368247
-    m_SerializedTextureGuid:
-      m_GuidLow: 16430241910255274575
-      m_GuidHigh: 3143750354108030859
-    m_Size: {x: 0.1, y: 0.1}
-    m_SpecifySize: 1
-    m_Name: Logo
-    m_Texture: {fileID: 2800000, guid: 5a804a4ff1f7e4038b1f1e6f4ad8a02b, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5602505921028117032
-      m_GuidHigh: 208412801924047543
-    m_SerializedTextureGuid:
-      m_GuidLow: 288924497207985411
-      m_GuidHigh: 4143232447317295274
-    m_Size: {x: 0.05, y: 0.05}
-    m_SpecifySize: 1
-    m_Name: QRCode
-    m_Texture: {fileID: 2800000, guid: a6fd8503774c0402aa403884f5b77f39, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5044297234718390953
-      m_GuidHigh: 5451429230177296818
-    m_SerializedTextureGuid:
-      m_GuidLow: 15155829188733214351
-      m_GuidHigh: 18001763551647873576
-    m_Size: {x: 0.27653983, y: 0.1689199}
-    m_SpecifySize: 1
-    m_Name: Annotazione 2020-06-23 195913
-    m_Texture: {fileID: 2800000, guid: 1ef09e8f5259d25428ba8ba2921cd3f9, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 4910637619155647510
-      m_GuidHigh: 4568575605290087309
-    m_SerializedTextureGuid:
-      m_GuidLow: 7219587354613887099
-      m_GuidHigh: 606525581722317675
-    m_Size: {x: 1, y: 1}
-    m_SpecifySize: 1
-    m_Name: sloth_all_1001_AlbedoTransparency
-    m_Texture: {fileID: 2800000, guid: b0a9b07b207264316bf3be95cdcf6a08, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5293501999106804338
-      m_GuidHigh: 15754043303383356290
-    m_SerializedTextureGuid:
-      m_GuidLow: 18326503100342558129
-      m_GuidHigh: 8482504470107260041
-    m_Size: {x: 1, y: 0.6666667}
-    m_SpecifySize: 1
-    m_Name: kisspng-pasta-penne-barilla-group-macaroni-semolina-5b692fa8ece184.7577480015336201369703
-    m_Texture: {fileID: 2800000, guid: c7035db1d178fe5489046892dfe8b775, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5406044087992211649
-      m_GuidHigh: 1157771805412891024
-    m_SerializedTextureGuid:
-      m_GuidLow: 13201202831696372948
-      m_GuidHigh: 13806570117741425355
-    m_Size: {x: 1, y: 1}
-    m_SpecifySize: 1
-    m_Name: P0019
-    m_Texture: {fileID: 2800000, guid: 4f24a4d41808b734cb32802a5fca9abf, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5224012898265589509
-      m_GuidHigh: 11609911070246741149
-    m_SerializedTextureGuid:
-      m_GuidLow: 5378617415501048694
-      m_GuidHigh: 7653241388831564458
-    m_Size: {x: 1, y: 0.9756098}
-    m_SpecifySize: 1
-    m_Name: pasta-farfalle-italian-cuisine-barilla-group-macaroni-png-favpng-fHdxHHuHR3UySZRWi9JsH6Ka8
-    m_Texture: {fileID: 2800000, guid: d1ab6b76b00a4aa4aa629f997ec6356a, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5124563874165370178
-      m_GuidHigh: 6591690875800841604
-    m_SerializedTextureGuid:
-      m_GuidLow: 10877420082479159495
-      m_GuidHigh: 3158567887474431659
-    m_Size: {x: 1, y: 0.8574219}
-    m_SpecifySize: 1
-    m_Name: QSX0023-TORTIGLIONI-3
-    m_Texture: {fileID: 2800000, guid: 18ded8c75bef96f4ab96de43c27cd52b, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5171722393902712467
-      m_GuidHigh: 8567773924835431847
-    m_SerializedTextureGuid:
-      m_GuidLow: 14435313225567511743
-      m_GuidHigh: 14076247189576653083
-    m_Size: {x: 1, y: 1}
-    m_SpecifySize: 1
-    m_Name: l_36253
-    m_Texture: {fileID: 2800000, guid: a77324bf88e5c8541b994e613de058c3, type: 3}
-  - m_SerializedGuid:
       m_GuidLow: 4856988694008449760
       m_GuidHigh: 18051486869548951481
     m_SerializedTextureGuid:
       m_GuidLow: 6499860613895652322
       m_GuidHigh: 4432865502697741608
     m_Size: {x: 2, y: 1.3386139}
-    m_SpecifySize: 1
+    m_SpecifySize: 0
     m_Name: Fusilli 141
-    m_Texture: {fileID: 2800000, guid: 64cd83e224ca5a3428dd6139b0b3843d, type: 3}
+    m_Texture: {fileID: 0}
