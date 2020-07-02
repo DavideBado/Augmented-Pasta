@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7153ecb9234719419fc3a6dd9773762, type: 3}
-  m_Name: Fussilli 141
+  m_Name: Linguine 7
   m_EditorClassIdentifier: 
   recipes:
-  - {fileID: 11400000, guid: 9b355248e121389409087fb3f537bbff, type: 2}
-  - {fileID: 11400000, guid: 800098ed71622a949950f23d1e3b9ce1, type: 2}
+  - {fileID: 11400000, guid: 3b68c36dc11d2a84393d104f547ff024, type: 2}
+  - {fileID: 11400000, guid: 7b4f7aa8f8178c44198fc2070a77d3c7, type: 2}

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7be95694722fefe4786d7ef153d9b4e3, type: 3}
-  m_Name: Fusilli al pesto di zucchine con salmone
+  m_Name: "\u044F \u043B\u044E\u0431\u043B\u044E fusili"
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: a8c2f3ada6492844990c4c2597ec05c1, type: 3}
+  Icon: {fileID: 21300000, guid: 6d083c7e245f77b47aa6198d58aa4e93, type: 3}
   URL: https://ricette.giallozafferano.it/Fusilli-al-pesto-di-zucchine-con-salmone.html
-  RecipeName: Fusilli al pesto di zucchine con salmone
+  RecipeName: "\u044F \u043B\u044E\u0431\u043B\u044E fusili"
   IngredientsNames:
   - Fusilli
   - Olio evo

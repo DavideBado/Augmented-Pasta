@@ -25,3 +25,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: Fusilli 141
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5665013131309668724
+      m_GuidHigh: 12189355336365673107
+    m_SerializedTextureGuid:
+      m_GuidLow: 6063132429222668092
+      m_GuidHigh: 4292888219506360363
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Linguine 7
+    m_Texture: {fileID: 0}
