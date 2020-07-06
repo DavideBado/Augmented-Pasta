@@ -172,6 +172,9 @@ public abstract class DictionaryDrawer<TK, TV> : PropertyDrawer
     }
 }
 
+[CustomPropertyDrawer(typeof(MyRecipeDictionary))]
+public class MyDictionaryDrawer : DictionaryDrawer<Food, float> { }
+
 [CustomPropertyDrawer(typeof(MyRecipesDictionary))]
 public class MyDictionaryDrawer2 : DictionaryDrawer<string, PastaRecipesData> { }
 #endif
