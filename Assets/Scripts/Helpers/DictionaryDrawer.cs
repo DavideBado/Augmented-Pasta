@@ -158,7 +158,7 @@ public abstract class DictionaryDrawer<TK, TV> : PropertyDrawer
         TK key;
         if (typeof(TK) == typeof(string))
             key = (TK)(object)"";
-        else key = default(TK);
+        else key = default;
 
         var value = default(TV);
         try
@@ -173,7 +173,7 @@ public abstract class DictionaryDrawer<TK, TV> : PropertyDrawer
 }
 
 [CustomPropertyDrawer(typeof(MyRecipeDictionary))]
-public class MyDictionaryDrawer : DictionaryDrawer<Food, float> { }
+public class MyDictionaryDrawer3 : DictionaryDrawer<int, float> { }
 
 [CustomPropertyDrawer(typeof(MyRecipesDictionary))]
 public class MyDictionaryDrawer2 : DictionaryDrawer<string, PastaRecipesData> { }
