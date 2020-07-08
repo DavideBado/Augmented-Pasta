@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe0226696ccef32478a195197e872b53, type: 3}
   m_Name: Maki
   m_EditorClassIdentifier: 
+  Name: Maki
   Graphics: {fileID: 1000012305856020, guid: bf960492e4c076c458d1ba649dc26577, type: 3}
   UnitOM: g
   AverageValuePerUnit: 80

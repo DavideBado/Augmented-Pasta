@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Test Recipe
   m_EditorClassIdentifier: 
   foods:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b8696307dd5fe3241a8ee305fc4bf672, type: 2}
+  - {fileID: 11400000, guid: 3e024f70526b09d4eb6c528082491dde, type: 2}
+  - {fileID: 11400000, guid: dbcecd7b3b3168143a863ab3a9d328c0, type: 2}
+  - {fileID: 11400000, guid: c0acc559d2766e34a8201f850e3fae7c, type: 2}
+  - {fileID: 11400000, guid: 546d44f732ce7b0459e6328c8424d520, type: 2}
   Ingredients:
     _Buckets: ffffffff0000000001000000020000000300000004000000ffffffff
     _HashCodes: 0100000002000000030000000400000005000000ffffffff00000000

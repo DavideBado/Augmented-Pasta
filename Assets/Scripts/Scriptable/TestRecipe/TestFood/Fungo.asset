@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe0226696ccef32478a195197e872b53, type: 3}
   m_Name: Fungo
   m_EditorClassIdentifier: 
+  Name: Funghi
   Graphics: {fileID: 1000011395917184, guid: 630adda25e718324a80512d3e4d69e13, type: 3}
   UnitOM: g
   AverageValuePerUnit: 50

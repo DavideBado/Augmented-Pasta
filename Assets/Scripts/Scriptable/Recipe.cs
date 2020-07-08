@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Recipe : ScriptableObject
 {
-    [SerializeField] Food[] foods;
+    public Food[] foods;
     [SerializeField] MyRecipeDictionary Ingredients;
 
 }

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe0226696ccef32478a195197e872b53, type: 3}
   m_Name: Gamberetti
   m_EditorClassIdentifier: 
+  Name: Gamberetti
   Graphics: {fileID: 1000012389451028, guid: 819bc2dc8cc285d4db64ae40568e2150, type: 3}
   UnitOM: Kg
   AverageValuePerUnit: 0.1

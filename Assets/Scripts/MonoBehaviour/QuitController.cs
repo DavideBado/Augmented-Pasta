@@ -4,5 +4,10 @@ using UnityEngine;
 
 public class QuitController : MonoBehaviour
 {
-    private void Update() {if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();}
+    private void Update() {if (Input.GetKeyDown(KeyCode.Escape)) Quit(); }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

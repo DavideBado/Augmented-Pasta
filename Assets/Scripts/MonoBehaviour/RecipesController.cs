@@ -22,6 +22,8 @@ public class RecipesController : MonoBehaviour
     public MyRecipesDictionary RecipesData;
 
     List<GameObject> RecipesInScene = new List<GameObject>();
+
+    [SerializeField] Recipe[] Recipes;
     void Awake()
     {
         m_TrackedImageManager = FindObjectOfType<ARTrackedImageManager>();
@@ -50,20 +52,20 @@ public class RecipesController : MonoBehaviour
         {
             trackedImage = eventArgs.added[i];
 
-            PastaRecipesData pastaRecipesData = RecipesData[trackedImage.referenceImage.name];
-            for (int j = 0; j < pastaRecipesData.recipes.Length; j++)
+            //PastaRecipesData pastaRecipesData = RecipesData[trackedImage.referenceImage.name];
+            for (int j = 0; j < Recipes.Length; j++)
             {
                 GameObject _RecipeGobj = Instantiate(Test, recipes);
                 RecipesInScene.Add(_RecipeGobj);
-                RecipeViewController recipeViewController = _RecipeGobj.GetComponent<RecipeViewController>();
+                //RecipeViewController recipeViewController = _RecipeGobj.GetComponent<RecipeViewController>();
 
                 _RecipeGobj.transform.position = trackedImage.transform.position + new Vector3(100 * j, 0, SpawnDist);
 
-                RecipeData recipeData = pastaRecipesData.recipes[j];
-                recipeViewController.RecipeImage.sprite = recipeData.Icon;
-                recipeViewController.RecipeName.text = recipeData.RecipeName;
-                recipeViewController.RecipeIngred.text = recipeData.GetIngString();
-                recipeViewController.URL = recipeData.URL;
+                //RecipeData recipeData = pastaRecipesData.recipes[j];
+                //recipeViewController.RecipeImage.sprite = recipeData.Icon;
+                //recipeViewController.RecipeName.text = recipeData.RecipeName;
+                //recipeViewController.RecipeIngred.text = recipeData.GetIngString();
+                //recipeViewController.URL = recipeData.URL;
 
                 _RecipeGobj.SetActive(true);
             }
