@@ -23,7 +23,7 @@ public class RecipesController : MonoBehaviour
 
     List<GameObject> RecipesInScene = new List<GameObject>();
 
-    [SerializeField] Recipe[] Recipes;
+    public GameObject TempPanels;
     void Awake()
     {
         m_TrackedImageManager = FindObjectOfType<ARTrackedImageManager>();
@@ -38,7 +38,6 @@ public class RecipesController : MonoBehaviour
     {
         m_TrackedImageManager.trackedImagesChanged -= OnTrackedImagesChanged;
     }
-
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
         ARTrackedImage trackedImage = null;
@@ -52,34 +51,36 @@ public class RecipesController : MonoBehaviour
         {
             trackedImage = eventArgs.added[i];
 
-            //PastaRecipesData pastaRecipesData = RecipesData[trackedImage.referenceImage.name];
-            for (int j = 0; j < Recipes.Length; j++)
-            {
-                GameObject _RecipeGobj = Instantiate(Test, recipes);
-                RecipesInScene.Add(_RecipeGobj);
-                //RecipeViewController recipeViewController = _RecipeGobj.GetComponent<RecipeViewController>();
+            ////PastaRecipesData pastaRecipesData = RecipesData[trackedImage.referenceImage.name];
+            //for (int j = 0; j < Recipes.Length; j++)
+            //{
+            //    GameObject _RecipeGobj = Instantiate(Test, recipes);
+            //    RecipesInScene.Add(_RecipeGobj);
+            //    //RecipeViewController recipeViewController = _RecipeGobj.GetComponent<RecipeViewController>();
 
-                _RecipeGobj.transform.position = trackedImage.transform.position + new Vector3(100 * j, 0, SpawnDist);
+            //    _RecipeGobj.transform.position = trackedImage.transform.position + new Vector3(100 * j, 0, SpawnDist);
 
-                //RecipeData recipeData = pastaRecipesData.recipes[j];
-                //recipeViewController.RecipeImage.sprite = recipeData.Icon;
-                //recipeViewController.RecipeName.text = recipeData.RecipeName;
-                //recipeViewController.RecipeIngred.text = recipeData.GetIngString();
-                //recipeViewController.URL = recipeData.URL;
+            //    //RecipeData recipeData = pastaRecipesData.recipes[j];
+            //    //recipeViewController.RecipeImage.sprite = recipeData.Icon;
+            //    //recipeViewController.RecipeName.text = recipeData.RecipeName;
+            //    //recipeViewController.RecipeIngred.text = recipeData.GetIngString();
+            //    //recipeViewController.URL = recipeData.URL;
 
-                _RecipeGobj.SetActive(true);
-            }
+                //_RecipeGobj.SetActive(true);
+            TempPanels.SetActive(true);
+            //}
 
 
         }
 
         for (int i = 0; i < eventArgs.removed.Count; i++)
         {
-            for (int j = 0;j < RecipesInScene.Count; j++)
-            {
-                RecipesInScene[i].SetActive(false);
-            }
-            RecipesInScene.Clear();
+            //for (int j = 0;j < RecipesInScene.Count; j++)
+            //{
+            //    RecipesInScene[i].SetActive(false);
+            //}
+            //RecipesInScene.Clear();
+            TempPanels.SetActive(false);
         }
     }
 }

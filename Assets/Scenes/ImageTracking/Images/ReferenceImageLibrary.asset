@@ -16,22 +16,12 @@ MonoBehaviour:
   m_GuidHigh: 11338665651040755373
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4856988694008449760
-      m_GuidHigh: 18051486869548951481
+      m_GuidLow: 5284847411351699270
+      m_GuidHigh: 11803488594795731333
     m_SerializedTextureGuid:
-      m_GuidLow: 6499860613895652322
-      m_GuidHigh: 4432865502697741608
-    m_Size: {x: 2, y: 1.3386139}
-    m_SpecifySize: 0
-    m_Name: Fusilli 141
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5665013131309668724
-      m_GuidHigh: 12189355336365673107
-    m_SerializedTextureGuid:
-      m_GuidLow: 6063132429222668092
-      m_GuidHigh: 4292888219506360363
+      m_GuidLow: 429091676564719365
+      m_GuidHigh: 15188051368259227194
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: Linguine 7
+    m_Name: Barilla_pasta_logo
     m_Texture: {fileID: 0}
